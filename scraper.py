@@ -12,13 +12,13 @@ article.download()
 article.parse()
 print(article.text)
 
-r = requests.get("https://abc7news.com/5895060/")
-coverpage = r.content
-s = ""
-soup = BeautifulSoup(coverpage, 'html5lib')
-for i in soup.find_all("html"):
-	s += (i.text + " ")
-print(s)
-coverpage_news = soup.find_all('coronavirus')
-print(coverpage_news)
-coverpage_news[4].get_text()
+# r = requests.get("https://abc7news.com/5895060/")
+# coverpage = r.content
+# s = ""
+# soup = BeautifulSoup(coverpage, 'html5lib')
+# for i in soup.find_all("html"):
+# 	s += (i.text + " ")
+# print(s)
+# coverpage_news = soup.find_all('coronavirus')
+# print(coverpage_news)
+# coverpage_news[4].get_text()
