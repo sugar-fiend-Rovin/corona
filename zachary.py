@@ -21,4 +21,5 @@ for i in soup.find_all("html"):
 print(s)
 coverpage_news = soup.find_all('coronavirus')
 print(coverpage_news)
-coverpage_news[4].get_text()
+coverpage_news[4].get_text()"
+print("hi")
